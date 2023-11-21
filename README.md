@@ -17,7 +17,6 @@ This Project is done under Professor and Course:
     - [Agents](#agents)
     - [Async Communication](#async-communication)
     - [Examples](#examples)
-- [Rendered Videos](saved_renders)
 - [Authors](#authors)
 - [Want to contribute?](#want-to-contribute)
 - [Acknowledgement](#acknowledgement)
