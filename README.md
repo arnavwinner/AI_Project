@@ -17,7 +17,7 @@ This Project is done under Professor and Course:
     - [Agents](#agents)
     - [Async Communication](#async-communication)
     - [Examples](#examples)
-- [Authors](#authors)
+- [Team Members](#team-members)
 - [Want to contribute?](#want-to-contribute)
 - [Acknowledgement](#acknowledgement)
 
@@ -71,7 +71,7 @@ Click `Start` and use the mouse slider to control the direction of the bar.
 ### Game Environment
 It consists of a puck and a bar with puck moving towards bar at constant horizontal speed. Both of them are controlled by separate agents. The goal of puck is to move past bar and reach final line while the goal of bar is to catch puck before it can reach the final line.
 
-The environment has been developed using OpenAI Gym library which accepts two action parameters corresponding to puck and bar, and moves the game by one time step giving output a tuple of state, reward, completion state and extra information object. [See code](gym-env) [Back to TOC](#table-of-contents)
+The environment has been developed using OpenAI Gym library which accepts two action parameters corresponding to puck and bar, and moves the game by one time step giving output a tuple of state, reward, completion state and extra information object. [Back to TOC](#table-of-contents)
 
 ### Agents
 - `lib-agents`: It features trivial, value based and policy based algorithms including `smurve`, `DQN`, `TD3`, `PPO` and `DDPG`.
