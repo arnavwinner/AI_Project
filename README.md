@@ -93,7 +93,7 @@ To support asynchronous inputs from agents, we have created a main server which 
 [Back to TOC](#table-of-contents)
 
 
-## Team Members
+## Team members
 - `Abhishek Kumar (12140040)`
 - `Arnav Gautam (12140280)`
 - `Dhruv Gupta (12140580)`
