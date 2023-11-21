@@ -101,7 +101,7 @@ To support asynchronous inputs from agents, we have created a main server which 
 
 [Back to TOC](#table-of-contents)
 ## Want to Contribute?
-We welcome everyone to report bugs, raise issues, add features etc. Drop a mail to the [authors](#authors) to discuss more.
+We welcome everyone to report bugs, raise issues, add features etc. Contact the [team members](#team-members) of this project to discuss more.
 
 [Back to TOC](#table-of-contents)
 ## Acknowledgement
