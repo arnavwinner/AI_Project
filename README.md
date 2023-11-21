@@ -14,7 +14,6 @@ In this project we have a task to do a `MARL (Multi-Agent Reinforcement Learning
     - [Examples](#examples)
 - [Team Members](#team-members)
 - [Course and Professor](#course-and-professor)
-- [Want to contribute?](#want-to-contribute)
 - [Acknowledgement](#acknowledgement)
 
 ## Features
@@ -76,12 +75,12 @@ The environment is constructed using the OpenAI Gym library, where two action pa
 [Back to TOC](#table-of-contents)
 
 ### Utils
-- Contains training script and utility functions implementing wrappers
-- Stores policy and environment configuration information. 
+- Includes a training script and utility functions that implement wrappers.
+- Holds information regarding policy and environment configurations.
 [Back to TOC](#table-of-contents)
 
 ### Async Communication
-To support asynchronous inputs from agents, we have created a main server which controls the environment. The agents using client class to connect to the server and use its step function to give their action and receive corresponding result tuple. The server takes actions from the agents as input and synchronizes them and updates the environment by one time step. [Back to TOC](#table-of-contents)
+To facilitate asynchronous inputs from agents, a central server has been developed to manage the environment. Agents utilize a client class to establish a connection with the server, employing its step function to submit their actions and receive the corresponding result tuple. The server processes actions from the agents, synchronizes them, and advances the environment by a single time step. [Back to TOC](#table-of-contents)
 
 ### Examples
 - Script for playing with the puck as a bar
@@ -102,10 +101,7 @@ To support asynchronous inputs from agents, we have created a main server which 
 2. `Course: DS251`
 
 [Back to TOC](#table-of-contents)
-## Want to Contribute?
-We welcome everyone to report bugs, raise issues, add features etc. Contact the [team members](#team-members) of this project to discuss more.
 
-[Back to TOC](#table-of-contents)
 ## Acknowledgement
 - We thank Prof. Soumyajit Pramanik for providing us with this opportunity to explore and learn more about SOTA algorithms through a project.
 - We also thank the creators of Tianshou and OpenAI Gym library which forms a core part of our codebase
