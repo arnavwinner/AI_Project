@@ -1,10 +1,5 @@
-# Penalty Shot Task
-We create a platform to pit SOTA Deep Reinforcement Learning algorithms against each other on the Penalty Shot Kick task. The task involves two agents simulating an penalty shootout.
-
-This Project is done under Professor and Course:
-
-1. Professor: Soumyajit Pramanik
-2. Course: DS251
+# MARL Penalty Shot Challenge
+In this project we have a task to do a Penalty Shot Challenge by creating our own platform to pit SOTA Deep Reinforcement Learning algorithms against each other. It involves two agents simulating an penalty shootout.
 
 ## Table of Contents
 - [Features](#features)
@@ -18,13 +13,14 @@ This Project is done under Professor and Course:
     - [Async Communication](#async-communication)
     - [Examples](#examples)
 - [Team Members](#team-members)
+- [Course and Professor](#course-and-professor)
 - [Want to contribute?](#want-to-contribute)
 - [Acknowledgement](#acknowledgement)
 
 ## Features
-- Rendering of the custom environment at each step
-- Fully configurable environments and policies
-- Async server to play with a policy manually
+- Visualization of the unique environment at every step
+- Complete customization of environments and policies
+- Asynchronous server for manual interaction with a policy
 
 [Back to TOC](#table-of-contents)
 
@@ -98,6 +94,12 @@ To support asynchronous inputs from agents, we have created a main server which 
 - `Arnav Gautam (12140280)`
 - `Dhruv Gupta (12140580)`
 - `Mitul Vardhan (12141070)`
+
+## Course and Professor
+- This Project is done under Professor and Course of IIT Bhilai:
+
+1. `Professor: Soumyajit Pramanik`
+2. `Course: DS251`
 
 [Back to TOC](#table-of-contents)
 ## Want to Contribute?
