@@ -1,6 +1,12 @@
 # MARL Penalty Shot Challenge
 In this project we have a task to do a `MARL (Multi-Agent Reinforcement Learning) Penalty Shot Challenge` by creating our own platform to pit SOTA Deep Reinforcement Learning algorithms against each other. It involves two agents simulating a penalty shootout. We have two entities that we would be playing on, `The Bar` and `The Puck`.
 
+## Course and Professor
+- This Project is done under Professor and Course of IIT Bhilai:
+
+1. `Professor: Soumyajit Pramanik`
+2. `Course: DS251`
+
 ## Table of Contents
 - [Features](#features)
 - [How to begin](#how-to-begin)
@@ -13,7 +19,6 @@ In this project we have a task to do a `MARL (Multi-Agent Reinforcement Learning
     - [Async Communication](#async-communication)
     - [Examples](#examples)
 - [Team Members](#team-members)
-- [Course and Professor](#course-and-professor)
 - [Acknowledgement](#acknowledgement)
 
 ## Features
@@ -93,14 +98,6 @@ To facilitate asynchronous inputs from agents, a central server has been develop
 - `Arnav Gautam (12140280)`
 - `Dhruv Gupta (12140580)`
 - `Mitul Vardhan (12141070)`
-
-## Course and Professor
-- This Project is done under Professor and Course of IIT Bhilai:
-
-1. `Professor: Soumyajit Pramanik`
-2. `Course: DS251`
-
-[Back to TOC](#table-of-contents)
 
 ## Acknowledgement
 - We thank Prof. Soumyajit Pramanik for providing us with this opportunity to explore and learn more about SOTA algorithms through a project.
