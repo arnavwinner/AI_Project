@@ -1,5 +1,5 @@
 # Penalty Shot Task
-We create a platform to pit SOTA Deep Reinforcement Learning algorithms against each other on the Penalty Shot Kick task. The task involves two agents simulating an penalty shootout. Do check out our results [here](https://drive.google.com/file/d/1_xkMm-6JUh_VIgNew1a4vPjCpU2wdI5D/view?usp=sharing) and the references [here](#literature-references).
+We create a platform to pit SOTA Deep Reinforcement Learning algorithms against each other on the Penalty Shot Kick task. The task involves two agents simulating an penalty shootout.
 
 This Project is done under Professor and Course:
 
@@ -77,20 +77,20 @@ The environment has been developed using OpenAI Gym library which accepts two ac
 - `lib-agents`: It features trivial, value based and policy based algorithms including `smurve`, `DQN`, `TD3`, `PPO` and `DDPG`.
 - `comm-agents`: It implements the hardcoded approach for finding a baseline and pure exploration strategy. It also implements the mouse slider.
 - Also implements a `TwoAgentPolicyWrapper` to combine policies for the puck and the agent.
-[See code](agents) [Back to TOC](#table-of-contents)
+[Back to TOC](#table-of-contents)
 
 ### Utils
 - Contains training script and utility functions implementing wrappers
 - Stores policy and environment configuration information. 
-[See code](utils) [Back to TOC](#table-of-contents)
+[Back to TOC](#table-of-contents)
 
 ### Async Communication
-To support asynchronous inputs from agents, we have created a main server which controls the environment. The agents using client class to connect to the server and use its step function to give their action and receive corresponding result tuple. The server takes actions from the agents as input and synchronizes them and updates the environment by one time step. [See code](communication) [Back to TOC](#table-of-contents)
+To support asynchronous inputs from agents, we have created a main server which controls the environment. The agents using client class to connect to the server and use its step function to give their action and receive corresponding result tuple. The server takes actions from the agents as input and synchronizes them and updates the environment by one time step. [Back to TOC](#table-of-contents)
 
 ### Examples
 - Script for playing with the puck as a bar
 - A notebook demonstrating smurves
-[See Code](examples) [Back to TOC](#table-of-contents)
+[Back to TOC](#table-of-contents)
 
 
 ## Team Members
