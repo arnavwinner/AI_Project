@@ -1,0 +1,27 @@
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_setup.py:_flush():76] Configure stats pid to 23603
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_setup.py:_flush():76] Loading settings from /home/mitul/.config/wandb/settings
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_setup.py:_flush():76] Loading settings from /home/mitul/Downloads/penalty-shot-project/wandb/settings
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'utils/train.py', 'program_abspath': '/home/mitul/Downloads/penalty-shot-project/utils/train.py', 'program': './utils/train.py'}
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_init.py:_log_setup():524] Logging user logs to /home/mitul/Downloads/penalty-shot-project/wandb/run-20231121_190437-ee4dh8yt/logs/debug.log
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_init.py:_log_setup():525] Logging internal logs to /home/mitul/Downloads/penalty-shot-project/wandb/run-20231121_190437-ee4dh8yt/logs/debug-internal.log
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_init.py:init():564] calling init triggers
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_init.py:init():614] starting backend
+2023-11-21 19:04:37,460 INFO    MainThread:23603 [wandb_init.py:init():618] setting up manager
+2023-11-21 19:04:37,463 INFO    MainThread:23603 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-21 19:04:37,464 INFO    MainThread:23603 [wandb_init.py:init():624] backend started and connected
+2023-11-21 19:04:37,470 INFO    MainThread:23603 [wandb_init.py:init():716] updated telemetry
+2023-11-21 19:04:37,489 INFO    MainThread:23603 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-21 19:04:39,303 ERROR   MainThread:23603 [wandb_init.py:init():775] encountered error: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2023-11-21 19:04:40,014 ERROR   MainThread:23603 [wandb_init.py:init():1184] It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+Traceback (most recent call last):
+  File "/home/mitul/Downloads/penalty-shot-project/venv/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    run = wi.init()
+  File "/home/mitul/Downloads/penalty-shot-project/venv/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 781, in init
+    raise error
+wandb.errors.CommError: It appears that you do not have permission to access the requested resource. Please reach out to the project owner to grant you access. If you have the correct permissions, verify that there are no issues with your networking setup.(Error 404: Not Found)
+2023-11-21 19:04:41,141 WARNING MsgRouterThr:23603 [router.py:message_loop():77] message_loop has been closed

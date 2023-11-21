@@ -1,0 +1,35 @@
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_setup.py:_flush():76] Current SDK version is 0.16.0
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_setup.py:_flush():76] Configure stats pid to 24076
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_setup.py:_flush():76] Loading settings from /home/mitul/.config/wandb/settings
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_setup.py:_flush():76] Loading settings from /home/mitul/Downloads/penalty-shot-project/wandb/settings
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'utils/train.py', 'program_abspath': '/home/mitul/Downloads/penalty-shot-project/utils/train.py', 'program': './utils/train.py'}
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_init.py:_log_setup():524] Logging user logs to /home/mitul/Downloads/penalty-shot-project/wandb/run-20231121_191112-l6tp1xc1/logs/debug.log
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_init.py:_log_setup():525] Logging internal logs to /home/mitul/Downloads/penalty-shot-project/wandb/run-20231121_191112-l6tp1xc1/logs/debug-internal.log
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_init.py:init():564] calling init triggers
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {}
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_init.py:init():614] starting backend
+2023-11-21 19:11:12,027 INFO    MainThread:24076 [wandb_init.py:init():618] setting up manager
+2023-11-21 19:11:12,030 INFO    MainThread:24076 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2023-11-21 19:11:12,030 INFO    MainThread:24076 [wandb_init.py:init():624] backend started and connected
+2023-11-21 19:11:12,037 INFO    MainThread:24076 [wandb_init.py:init():716] updated telemetry
+2023-11-21 19:11:12,050 INFO    MainThread:24076 [wandb_init.py:init():749] communicating run to backend with 90.0 second timeout
+2023-11-21 19:11:18,392 WARNING MainThread:24076 [wandb_init.py:init():1188] interrupted
+Traceback (most recent call last):
+  File "/home/mitul/Downloads/penalty-shot-project/venv/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 1166, in init
+    run = wi.init()
+  File "/home/mitul/Downloads/penalty-shot-project/venv/lib/python3.8/site-packages/wandb/sdk/wandb_init.py", line 752, in init
+    result = run_init_handle.wait(
+  File "/home/mitul/Downloads/penalty-shot-project/venv/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/mitul/Downloads/penalty-shot-project/venv/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/mitul/Downloads/penalty-shot-project/venv/lib/python3.8/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/usr/local/lib/python3.8/threading.py", line 558, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/local/lib/python3.8/threading.py", line 306, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

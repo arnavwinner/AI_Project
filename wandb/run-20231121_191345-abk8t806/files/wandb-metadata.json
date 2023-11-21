@@ -1,0 +1,95 @@
+{
+    "os": "Linux-6.2.0-36-generic-x86_64-with-glibc2.35",
+    "python": "3.8.12",
+    "heartbeatAt": "2023-11-21T13:43:48.414606",
+    "startedAt": "2023-11-21T13:43:45.314515",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--wandb-name",
+        "ds251_project",
+        "--training-num",
+        "1",
+        "--test-num",
+        "2",
+        "--puck",
+        "ppo",
+        "--bar",
+        "ppo",
+        "--load-puck-id",
+        "both_ppo",
+        "--load-bar-id",
+        "both_ppo"
+    ],
+    "state": "running",
+    "program": "./utils/train.py",
+    "codePathLocal": "utils/train.py",
+    "codePath": "utils/train.py",
+    "git": {
+        "remote": "https://github.com/devanshusingla/penalty-shot-project.git",
+        "commit": "f2b1e7acddbe443dae156c7c574e919285068c7a"
+    },
+    "email": "mitulvardhan@iitbhilai.ac.in",
+    "root": "/home/mitul/Downloads/penalty-shot-project",
+    "host": "mitul-HP-Laptop-15s-du3xxx",
+    "username": "mitul",
+    "executable": "/home/mitul/Downloads/penalty-shot-project/venv/bin/python3.8",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 1456.2530000000002,
+        "min": 400.0,
+        "max": 4200.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 980.065,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1408.523,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 2286.097,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1569.72,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 851.524,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1589.869,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1050.452,
+            "min": 400.0,
+            "max": 4200.0
+        },
+        {
+            "current": 1520.172,
+            "min": 400.0,
+            "max": 4200.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 227.39030838012695,
+            "used": 106.08063507080078
+        }
+    },
+    "memory": {
+        "total": 7.493259429931641
+    }
+}
