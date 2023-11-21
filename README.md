@@ -1,9 +1,9 @@
 # MARL Penalty Shot Challenge
-In this project we have a task to do a Penalty Shot Challenge by creating our own platform to pit SOTA Deep Reinforcement Learning algorithms against each other. It involves two agents simulating an penalty shootout.
+In this project we have a task to do a `MARL (Multi-Agent Reinforcement Learning) Penalty Shot Challenge` by creating our own platform to pit SOTA Deep Reinforcement Learning algorithms against each other. It involves two agents simulating a penalty shootout. We have two entities that we would be playing on, `The Bar` and `The Puck`.
 
 ## Table of Contents
 - [Features](#features)
-- [How to get started](#how-to-get-started)
+- [How to begin](#how-to-begin)
     - [Install packages](#install-packages)
     - [Train and test a model](#train-and-test-a-model)
     - [Play as bar](#to-play-as-bar)
@@ -24,7 +24,7 @@ In this project we have a task to do a Penalty Shot Challenge by creating our ow
 
 [Back to TOC](#table-of-contents)
 
-## How to get started
+## How to begin
 
 ### Install packages
 >The `-e` flag is included to make the project package editable
@@ -65,9 +65,9 @@ Click `Start` and use the mouse slider to control the direction of the bar.
 
 ## Codebase
 ### Game Environment
-It consists of a puck and a bar with puck moving towards bar at constant horizontal speed. Both of them are controlled by separate agents. The goal of puck is to move past bar and reach final line while the goal of bar is to catch puck before it can reach the final line.
+It comprises a puck and a bar, with the puck moving horizontally at a consistent speed towards the bar. Each entity is independently controlled by its respective agent. The objective for the puck is to surpass the bar and reach the final line, while the bar aims to intercept the puck before it reaches the final line.
 
-The environment has been developed using OpenAI Gym library which accepts two action parameters corresponding to puck and bar, and moves the game by one time step giving output a tuple of state, reward, completion state and extra information object. [Back to TOC](#table-of-contents)
+The environment is constructed using the OpenAI Gym library, where two action parameters corresponding to the puck and bar are accepted. The game progresses by one time step, producing a tuple output of state, reward, completion state, and an additional information object. [Back to TOC](#table-of-contents)
 
 ### Agents
 - `lib-agents`: It features trivial, value based and policy based algorithms including `smurve`, `DQN`, `TD3`, `PPO` and `DDPG`.
